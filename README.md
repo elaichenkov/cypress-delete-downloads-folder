@@ -1,0 +1,1 @@
+# cypress-delete-downloads-folder
