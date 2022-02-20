@@ -1,0 +1,40 @@
+{
+  "name": "cypress-delete-downloads-folder",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "cy:open": "npx cypress open",
+    "cy:run": "npx cypress run",
+    "test": "npm run cy:run --browser chrome --headless",
+    "release": "release-it --github.release",
+    "release:ci": "npm run release -- --ci --npm.skipChecks --no-git.requireCleanWorkingDir",
+    "release:patch": "npm run release -- patch",
+    "release:minor": "npm run release -- minor",
+    "release:major": "npm run release -- major"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elaichenkov/cypress-delete-downloads-folder.git"
+  },
+  "keywords": [
+    "cypress",
+    "plugin",
+    "e2e",
+    "cy",
+    "command",
+    "javascript",
+    "typescript",
+    "testing"
+  ],
+  "author": "Yevhen Laichenkov <elaichenkov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elaichenkov/cypress-delete-downloads-folder/issues"
+  },
+  "homepage": "https://github.com/elaichenkov/cypress-delete-downloads-folder#readme",
+  "devDependencies": {
+    "cypress": "^9.5.0",
+    "release-it": "^14.12.4"
+  }
+}
