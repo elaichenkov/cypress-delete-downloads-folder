@@ -1,8 +1,13 @@
 {
   "name": "cypress-delete-downloads-folder",
   "version": "0.0.1",
-  "description": "",
+  "description": "Cypress custom command and hooks to remove downloads folder",
+  "files": [
+    "src/index.js",
+    "src/index.d.ts"
+  ],
   "main": "src/index.js",
+  "types": "src/index.d.ts",
   "scripts": {
     "cy:open": "npx cypress open",
     "cy:run": "npx cypress run",
