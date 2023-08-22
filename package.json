@@ -40,6 +40,6 @@
   "homepage": "https://github.com/elaichenkov/cypress-delete-downloads-folder#readme",
   "devDependencies": {
     "cypress": "^9.5.0",
-    "release-it": "^14.12.4"
+    "release-it": "^16.1.5"
   }
 }
