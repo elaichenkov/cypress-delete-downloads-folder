@@ -39,7 +39,7 @@
   },
   "homepage": "https://github.com/elaichenkov/cypress-delete-downloads-folder#readme",
   "devDependencies": {
-    "cypress": "^12.17.4",
+    "cypress": "^13.1.0",
     "release-it": "^16.1.5"
   }
 }
